@@ -1,12 +1,9 @@
 #include <stdio.h>
-#include math.h>
-
-
 int main() 
 {
-    float radius, area;
-    scanf("%f", &radius);
-    area = M_PI*radius*radius;
+    float r, area;
+    scanf("%f", &r);
+    area = 3.14*r*r;
     printf("The area of the circle is: %.2f\n", area);
     return 0;
 }
