@@ -7,13 +7,13 @@ int main()
     if (grade>=90){
         printf("A");
     }
-    else if(90<=grade>=80){
+    else if(90<grade>=80){
         printf("B");
     }
-    else if(80<=grade>=70){
+    else if(80<grade>=70){
         printf("C");
     }
-    else if(70<=grade>=60){
+    else if(70<grade>=60){
         printf("D");
     }
     else{
