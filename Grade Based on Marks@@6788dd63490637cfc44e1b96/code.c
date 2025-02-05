@@ -7,16 +7,16 @@ int main()
     if (grade>=90){
         printf("A");
     }
-    else if(90<grade>=80){
+    else if(grade>=80 && grade<90){
         printf("B");
     }
-    else if(80<grade>=70){
+    else if(grade>=70 && grade<80){
         printf("C");
     }
-    else if(70<grade>=60){
+    else if(grade>=60 && grade<70){
         printf("D");
     }
-    else{
+    else if(grade<60){
         printf("F");
     }
     return 0;
