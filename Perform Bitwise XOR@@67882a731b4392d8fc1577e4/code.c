@@ -5,6 +5,6 @@ int main()
     printf("");
     scanf("%d%d",&a,&b);
     result=a^b;
-    printf("%d\n"result);
+    printf("%d\n",result);
     return 0;
 }
