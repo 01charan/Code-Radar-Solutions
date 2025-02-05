@@ -15,5 +15,8 @@ int main()
     else if(age<=18 && citizen==0){
         printf("Not Eligible");
     }
+    else{
+        printf("Invalid");
+    }
     return 0;
 }
