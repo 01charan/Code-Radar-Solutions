@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    char grade;
+    int grade;
     printf("");
     scanf("%d",&grade);
     if (grade>=90){
