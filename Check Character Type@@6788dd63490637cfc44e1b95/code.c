@@ -3,8 +3,8 @@
 int main()
 {
     char ch[100];
-    char *vowel="aeiouAEIOU";
-    scanf("%s",&ch);
+    char *vowels="aeiouAEIOU";
+    scanf("%s\n",&ch);
     if((ch>='a' && ch<='z')||(ch>='A' && ch<='Z')){
         if(strchr(vowels,ch)!=NULL){
             printf("Vowel");
