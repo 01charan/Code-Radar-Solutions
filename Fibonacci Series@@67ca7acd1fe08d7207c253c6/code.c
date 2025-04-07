@@ -1,6 +1,6 @@
 #include<stdio.h>
 int fib(int n);
-void main()
+int main()
 {
     int n,f;
     printf("");
